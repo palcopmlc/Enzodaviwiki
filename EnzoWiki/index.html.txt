@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌟 WIKI ENZO DAVI 🌟</title>
+    <style>
+        /* Estilo Y2K Clássico */
+        body {
+            background-color: #000;
+            background-image: radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+                              radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+                              radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px);
+            background-size: 550px 550px, 350px 350px, 250px 250px;
+            background-position: 0 0, 40px 60px, 130px 270px;
+            font-family: 'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', sans-serif;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+            cursor: crosshair; /* Cursor clássico de site antigo */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffb3ff; /* Rosa choque claro */
+            border: 8px ridge #ff00ff; /* Borda 3D exagerada */
+            padding: 20px;
+            box-shadow: 10px 10px 0px #00ffff; /* Sombra dura ciano */
+        }
+
+        /* Estilo "WordArt" para o título */
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            color: yellow;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 
+                3px 3px 0px #ff00ff,
+                -3px -3px 0px #00ffff;
+            margin-top: 0;
+            animation: bounce 2s infinite alternate;
+        }
+
+        @keyframes bounce {
+            from { transform: translateY(0px); }
+            to { transform: translateY(-10px); }
+        }
+
+        /* Letreiro passante (Marquee) */
+        .marquee-container {
+            background-color: #0000ff;
+            color: #ffff00;
+            font-weight: bold;
+            font-size: 1.2em;
+            padding: 5px;
+            border: 3px dashed #ffff00;
+            margin-bottom: 20px;
+        }
+
+        /* Seção de Perfil */
+        .profile-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: flex-start;
+            background: #e6ffff;
+            padding: 15px;
+            border: 3px dotted #0000ff;
+        }
+
+        .profile-img-container {
+            flex: 1;
+            min-width: 250px;
+            text-align: center;
+        }
+
+        .profile-img {
+            max-width: 100%;
+            border: 5px solid lime;
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+            transition: transform 0.3s;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.05) rotate(5deg);
+        }
+
+        .profile-text {
+            flex: 2;
+            min-width: 300px;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            background-color: yellow;
+            color: red;
+            font-weight: bold;
+            padding: 0 5px;
+        }
+
+        .blink {
+            animation: blinker 0.8s linear infinite;
+            color: red;
+            font-weight: bold;
+        }
+
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+
+        /* Tabela de "Status" (Estilo antigo) */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: white;
+            border: 4px outset #ccc;
+        }
+
+        th, td {
+            border: 2px inset #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #000080; /* Azul marinho Windows 98 */
+            color: white;
+        }
+
+        /* Rodapé com contator de visitas fake */
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 4px groove #ff00ff;
+        }
+
+        .hit-counter {
+            background: black;
+            color: lime;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 5px 15px;
+            font-size: 1.5em;
+            display: inline-block;
+            border: 2px solid gray;
+            letter-spacing: 5px;
+        }
+
+        .music-player {
+            background: silver;
+            border: 3px outset white;
+            padding: 10px;
+            width: 250px;
+            margin: 20px auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Título Estilo WordArt -->
+        <h1>~* Wiki Enzo Davi *~</h1>
+
+        <!-- O clássico Marquee -->
+        <div class="marquee-container">
+            <marquee behavior="scroll" direction="left" scrollamount="8">
+                ✨👾 BEM-VINDOS À PÁGINA OFICIAL DO ENZO DAVI!!! 👾✨ A LENDA DO IF! 🦋💖 O CARA MAIS AMADO DA INTERNET! 💯🔥
+            </marquee>
+        </div>
+
+        <div class="profile-section">
+            <div class="profile-img-container">
+                <!-- Imagem do usuário injetada aqui com tamanho fixo para não sumir -->
+                <img src="image_c66683.jpg" alt="Foto do Enzo Davi" class="profile-img" style="width: 250px; height: 250px; object-fit: cover;">
+                <br><br>
+                <span class="blink">◄ STATUS: ONLINE ►</span>
+            </div>
+
+            <div class="profile-text">
+                <h2>Quem é ele? 🤔💭</h2>
+                <p>
+                    Bem-vindo ao cantinho sagrado da web dedicado ao único e inigualável <strong>Enzo Davi</strong>! 
+                </p>
+                <p>
+                    Ele é <span class="highlight">autista</span>, estuda no <strong>IF</strong> e possui o superpoder mágico de fazer <em>todo mundo ao seu redor se apaixonar por ele</em>! (Sério, é impossível não amar esse cara).
+                </p>
+                <p>
+                    Dono de um carisma nível 1000 e uma vibe que contagia qualquer ambiente. Se você conhece o Enzo, você sabe que ele é a verdadeira definição de lenda. 😎✨
+                </p>
+            </div>
+        </div>
+
+        <!-- Tabela Estilo HTML Antigo -->
+        <table>
+            <tr>
+                <th colspan="2">📋 Ficha Técnica Oficial 📋</th>
+            </tr>
+            <tr>
+                <td><strong>Nome Completo:</strong></td>
+                <td>Enzo Davi</td>
+            </tr>
+            <tr>
+                <td><strong>Ocupação:</strong></td>
+                <td>Estudante do IF / Ícone Pop</td>
+            </tr>
+            <tr>
+                <td><strong>Nível de Fofura:</strong></td>
+                <td>Mais de 8000! 🚀</td>
+            </tr>
+            <tr>
+                <td><strong>Neurodiversidade:</strong></td>
+                <td>Autista com orgulho! 🧩♾️</td>
+            </tr>
+        </table>
+
+        <!-- Fake Music Player -->
+        <div class="music-player">
+            <strong>🎵 Winamp Web Player 🎵</strong><br>
+            <em>Tocando agora: Linkin Park - Numb.mp3</em><br>
+            <marquee behavior="alternate" scrollamount="3">ılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılı</marquee>
+        </div>
+
+        <!-- Rodapé -->
+        <div class="footer">
+            <p>💖 Feito com muito amor (e HTML puro) 💖</p>
+            <p>Você é o visitante número:</p>
+            <div class="hit-counter">001337</div>
+            <p><small>Melhor visualizado em resolução 800x600 no Internet Explorer 6.0</small></p>
+            <p>👾 🦋 🌟 🎵 ✨</p>
+        </div>
+    </div>
+
+</body>
+</html>
